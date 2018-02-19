@@ -1,0 +1,20 @@
+premium_homepage:
+    path:     /
+    defaults: { _controller: PremiumBundle:Default:index }
+
+#route acceuil
+acceuil:
+    path:     /acceuil
+    defaults: { _controller: PremiumBundle:Front:acceuil }    
+
+#route rechercher_bien
+search_bien:
+    path:     /front/bien/search
+    defaults: { _controller: PremiumBundle:Front:searchBien }
+
+#route reserver_bien
+reserver_bien:
+    path:     /front/bien/reserver
+    defaults: { _controller: PremiumBundle:Front:reserverBien }
+
+

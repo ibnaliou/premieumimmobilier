@@ -1,0 +1,4 @@
+services:
+#    premium.example:
+#        class: PI\Premium_ImmobilierBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
